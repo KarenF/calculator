@@ -1,6 +1,14 @@
 module.exports = {
-  sum: () => {},
-  sub: () => {},
-  mult: () => {},
-  div: () => {}
+  sum: (num1, num2) => {
+    return num1 + num2
+  },
+  sub: (num1, num2) => {
+    return num1 - num2
+  },
+  mult: (num1, num2) => {
+    return num1 * num2
+  },
+  div: (num1, num2) => {
+    return (num2 === 0) ? 'You cant divide a number by zero!' : num1 / num2
+  }
 }

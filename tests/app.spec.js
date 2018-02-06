@@ -23,4 +23,30 @@ describe('Calc', () => {
       expect(calc.div).to.be.a('function')
     })
   })
+  describe('Sum', () => {
+    it('should return 4 when `sum(2,2)`', () => {
+      expect(calc.sum(2,2)).to.be.equal(4)
+    })
+  })
+  describe('Sub', () => {
+    it('should return 0 when `sub(2,2)`', () => {
+      expect(calc.sub(2,2)).to.be.equal(0)
+    })
+    it('should return -4 when `sub(6,10)`', () => {
+      expect(calc.sub(6,10)).to.be.equal(-4)
+    })
+  })
+  describe('Mult', () => {
+    it('should return 6 when `mult(2,3)`', () => {
+      expect(calc.mult(2,3)).to.be.equal(6)
+    })
+    describe('Div', () => {
+      it('should return 1 when `div(2,2)`', () => {
+        expect(calc.div(2,2)).to.be.equal(1)
+      })
+      it('should return `You cant divide a number by zero!` when divide by 0', () => {
+        expect(calc.div(2,0)).to.be.equal('You cant divide a number by zero!')
+      })
+    })
+  })
 })
