@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarenF/calculator.git"
+  },
+  "author": "Karen F <karen.fischborn@gmail.com> (https://github.com/KarenF)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KarenF/calculator/issues"
+  },
+  "homepage": "https://github.com/KarenF/calculator#readme"
+}
