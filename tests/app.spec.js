@@ -1,5 +1,5 @@
-const expect = require('chai').expect
-const calc = require('../src/app.js')
+import { expect } from 'chai'
+import calc from '../src/app'
 
 describe('Calc', () => {
   describe('smoke tests', () => {
